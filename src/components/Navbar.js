@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   return (
-    <div className='bg-blue-100'>
+    <div className='bg-indigo-100'>
       <div className='flex mx-auto justify-between max-w-screen-2xl'>
         <Link to='/react-conference' className=''>
-          <h3 className='text-4xl m-5'>ReactJS Antalya</h3>
+          <h3 className='text-4xl m-5 text-indigo-900'>ReactJS Antalya</h3>
         </Link>
-        <div className='space-x-4 mr-5 my-auto hidden sm:flex'>
+        <div className='space-x-4 mr-5 my-auto hidden sm:flex text-indigo-900'>
           <Link to='/react-conference/code' className='flex-shrink-0'>
             Code of Conduct
           </Link>
@@ -41,19 +41,19 @@ const Navbar = () => {
       >
         <Link
           to='/code'
-          className='border-gray-800 border-b-2 mr-auto hover:border-blue-400 focus:text-blue-800 focus:border-blue-300'
+          className='border-indigo-800 border-b-2 mr-auto hover:border-indigo-400 focus:text-indigo-800 focus:border-indigo-300'
         >
           Code of Conduct
         </Link>
         <Link
           to='/location'
-          className='border-gray-800 border-b-2 mr-auto hover:border-blue-400 focus:text-blue-800 focus:border-blue-300'
+          className='border-indigo-800 border-b-2 mr-auto hover:border-indigo-400 focus:text-indigo-800 focus:border-indigo-300'
         >
           Location
         </Link>
         <Link
           to='/contact'
-          className='border-gray-800 border-b-2 mr-auto hover:border-blue-400 focus:text-blue-800 focus:border-blue-300'
+          className='border-indigo-800 border-b-2 mr-auto hover:border-indigo-400 focus:text-indigo-800 focus:border-indigo-300'
         >
           Contact
         </Link>

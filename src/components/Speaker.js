@@ -6,7 +6,7 @@ const Speaker = () => {
   return (
     <div className='text-center m-5'>
       <img
-        className='mx-auto rounded-full border-2 border-blue-500'
+        className='mx-auto rounded-full border-2 border-indigo-500'
         src={
           faker.image.people(150, 150) +
           `?random=${faker.random.word('randomtext')}`
@@ -24,17 +24,17 @@ const Speaker = () => {
             .userName(firstName, lastName)
             .toLowerCase()}`}
         >
-          <i className='fab fa-twitter text-2xl hover:text-blue-500'></i>
+          <i className='fab fa-twitter text-2xl hover:text-indigo-500'></i>
         </a>
         <a
           href={`https://www.github.com/${faker.internet
             .userName(firstName, lastName)
             .toLowerCase()}`}
         >
-          <i className='fab fa-github text-2xl hover:text-blue-500'></i>
+          <i className='fab fa-github text-2xl hover:text-indigo-500'></i>
         </a>
         <a href={faker.internet.url()}>
-          <i className='fas fa-globe text-2xl hover:text-blue-500'></i>
+          <i className='fas fa-globe text-2xl hover:text-indigo-500'></i>
         </a>
       </div>
     </div>

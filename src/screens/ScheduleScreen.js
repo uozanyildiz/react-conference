@@ -5,7 +5,7 @@ const ScheduleScreen = () => {
   return (
     <div className='mt-16 flex min-w-full'>
       <div className='mx-auto'>
-        <h1 className='text-5xl text-center'>Schedule</h1>
+        <h1 className='text-5xl text-center text-indigo-900'>Schedule</h1>
         <div className='mt-10 text-center'>
           <ScheduleItem
             time='09.00'

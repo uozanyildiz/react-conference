@@ -4,7 +4,7 @@ const EventHeader = () => {
   return (
     <div className='m-16'>
       <div className='flex flex-col pt-10 pb-24 p-10 bg-conference bg-fixed bg-center bg-cover bg-no-repeat'>
-        <div className='bg-gradient-to-t from-blue-700 to-blue-900 opacity-90 text-blue-100 mb-auto bg-opacity-80 p-10 rounded-3xl shadow-xl '>
+        <div className='bg-gradient-to-t from-indigo-700 to-indigo-900 opacity-90 text-indigo-100 mb-auto bg-opacity-80 p-10 rounded-3xl shadow-xl '>
           <h3 className='text-3xl'>ReactJS Antalya</h3>
           <h3 className='text-xl mt-5'>24 March 2021</h3>
           <p className='text-lg mt-10'>
@@ -20,7 +20,7 @@ const EventHeader = () => {
         </div>
         <a
           href='/'
-          className='mx-auto mt-10 p-2 bg-white bg-opacity-80 rounded-lg text-2xl text-blue-900 hover:text-blue-500'
+          className='mx-auto mt-10 p-2 bg-white bg-opacity-80 rounded-lg text-2xl text-indigo-900 hover:text-indigo-500'
         >
           Buy a ticket!
         </a>

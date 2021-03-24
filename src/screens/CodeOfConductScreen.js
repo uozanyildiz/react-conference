@@ -2,14 +2,16 @@ import React from 'react';
 const CodeOfConductScreen = () => {
   return (
     <div className='mt-16 m-10 w-auto lg:ml-40 lg:mr-40 min-w-50 text-center'>
-      <h1 className='text-5xl font-roboto'>Conference Code of Conduct</h1>
+      <h1 className='text-5xl font-roboto text-indigo-900'>
+        Conference Code of Conduct
+      </h1>
       <p className='text-lg mt-10'>
         All attendees, speakers, sponsors and volunteers at our conference are
         required to agree with the following code of conduct. Organisers will
         enforce this code throughout the event. We expect cooperation from all
         participants to help ensure a safe environment for everybody.
       </p>
-      <h3 className='text-3xl mt-10'>The Quick Version</h3>
+      <h3 className='text-3xl mt-10 text-indigo-900'>The Quick Version</h3>
       <p className='text-lg mt-3'>
         Our conference is dedicated to providing a harassment-free conference
         experience for everyone, regardless of gender, gender identity and
@@ -22,7 +24,7 @@ const CodeOfConductScreen = () => {
         or expelled from the conference without a refund at the discretion of
         the conference organisers.
       </p>
-      <h3 className='text-3xl mt-10'>The Less Quick Version</h3>
+      <h3 className='text-3xl mt-10 text-indigo-900'>The Less Quick Version</h3>
       <p className='text-lg mt-3'>
         Harassment includes offensive verbal comments related to gender, gender
         identity and expression, age, sexual orientation, disability, physical
@@ -50,7 +52,7 @@ const CodeOfConductScreen = () => {
         social events.
       </p>
 
-      <p className='mt-10 text-4xl'>
+      <p className='mt-10 text-4xl text-indigo-900'>
         For any questions, you can find us at contact page!
       </p>
     </div>

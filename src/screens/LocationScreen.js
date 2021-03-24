@@ -3,7 +3,7 @@ import React from 'react';
 const LocationScreen = () => {
   return (
     <div className='mt-16 flex flex-col h-screen'>
-      <h1 className='text-5xl text-center'>Location</h1>
+      <h1 className='text-5xl text-center text-indigo-900'>Location</h1>
 
       <div className='mx-10 sm:mx-20 lg:mx-40 mt-16 flex flex-col pb-10'>
         <p className='text-xl mt-5 text-center'>
