@@ -6,7 +6,6 @@ import Navbar from './components/Navbar';
 import ScheduleScreen from './screens/ScheduleScreen';
 
 function App() {
-  console.log(process.env.PUBLIC_URL);
   return (
     <Router basename='/react-conference'>
       <div>

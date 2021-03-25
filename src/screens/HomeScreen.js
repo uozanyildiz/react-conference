@@ -1,6 +1,6 @@
 import React from 'react';
-import EventHeader from '../components/EventHeader';
-import SpeakerList from '../components/SpeakerList';
+import EventHeader from '../components/Home/EventHeader';
+import SpeakerList from '../components/Home/SpeakerList';
 
 const HomeScreen = () => {
   return (

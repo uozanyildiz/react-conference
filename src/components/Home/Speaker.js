@@ -4,7 +4,7 @@ const Speaker = () => {
   const firstName = faker.name.firstName(0);
   const lastName = faker.name.lastName(0);
   return (
-    <div className='text-center m-5'>
+    <div className='text-center m-5 '>
       <img
         className='mx-auto rounded-full border-2 border-indigo-500'
         src={
@@ -13,12 +13,12 @@ const Speaker = () => {
           `?random=${faker.random.word('randomtext')}`
         }
         alt=''
-        srcset=''
+        srcSet=''
       />
-      <h2 className='text-4xl mt-2'>{`${firstName}  ${lastName}`}</h2>
-      <h2 className='text-lg mt-2'>{faker.company.companyName(0)}</h2>
-      <h2 className='text-lg'>{faker.commerce.department()}</h2>
-      <h2 className='text-lg text-gray-700'>{faker.address.country()}</h2>
+      <h2 className='text-xl sm:text-4xl mt-2'>{`${firstName}  ${lastName}`}</h2>
+      <h2 className='sm:text-lg mt-2'>{faker.company.companyName(0)}</h2>
+      <h2 className='sm:text-lg'>{faker.commerce.department()}</h2>
+      <h2 className='sm:text-lg text-gray-700'>{faker.address.country()}</h2>
       <div className='flex space-x-2 justify-center mt-2'>
         <a
           href={`https://www.twitter.com/${faker.internet

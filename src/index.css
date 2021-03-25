@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .menu-item {
+    @apply border-indigo-800 border-b-2 mr-auto hover:border-indigo-400 focus:text-indigo-800 focus:border-indigo-300;
+  }
+}
