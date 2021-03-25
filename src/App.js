@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import ScheduleScreen from './screens/ScheduleScreen';
 
 function App() {
+  console.log(process.env.PUBLIC_URL);
   return (
     <Router>
       <div>
@@ -13,7 +14,7 @@ function App() {
         <Route path='/location' component={LocationScreen} />
         <Route path='/schedule' component={ScheduleScreen} />
         <Route path='/code' component={CodeOfConductScreen} />
-        <Route path='/' component={HomeScreen} exact />
+        <Route exact path='/' component={HomeScreen} />
       </div>
     </Router>
   );

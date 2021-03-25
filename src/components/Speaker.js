@@ -8,7 +8,8 @@ const Speaker = () => {
       <img
         className='mx-auto rounded-full border-2 border-indigo-500'
         src={
-          faker.image.people(150, 150) +
+          //
+          faker.image.people(150, 150).replace('http', 'https') +
           `?random=${faker.random.word('randomtext')}`
         }
         alt=''
