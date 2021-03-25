@@ -6,17 +6,17 @@ const Navbar = () => {
   return (
     <div className='bg-indigo-100'>
       <div className='flex mx-auto justify-between max-w-screen-2xl'>
-        <Link to='/react-conference' className=''>
+        <Link to='/' className=''>
           <h3 className='text-4xl m-5 text-indigo-900'>ReactJS Antalya</h3>
         </Link>
         <div className='space-x-4 mr-5 my-auto hidden sm:flex text-indigo-900'>
-          <Link to='/react-conference/code' className='flex-shrink-0'>
+          <Link to='/code' className='flex-shrink-0'>
             Code of Conduct
           </Link>
-          <Link to='/react-conference/location' className=''>
+          <Link to='/location' className=''>
             Location
           </Link>
-          <Link to='/react-conference/schedule' className=''>
+          <Link to='/schedule' className=''>
             Schedule
           </Link>
         </div>
@@ -52,10 +52,10 @@ const Navbar = () => {
           Location
         </Link>
         <Link
-          to='/contact'
+          to='/schedule'
           className='border-indigo-800 border-b-2 mr-auto hover:border-indigo-400 focus:text-indigo-800 focus:border-indigo-300'
         >
-          Contact
+          Schedule
         </Link>
       </div>
     </div>

@@ -10,10 +10,10 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Route path='/react-conference/location' component={LocationScreen} />
-        <Route path='/react-conference/schedule' component={ScheduleScreen} />
-        <Route path='/react-conference/code' component={CodeOfConductScreen} />
-        <Route path='/react-conference' component={HomeScreen} exact />
+        <Route path='/location' component={LocationScreen} />
+        <Route path='/schedule' component={ScheduleScreen} />
+        <Route path='/code' component={CodeOfConductScreen} />
+        <Route path='/' component={HomeScreen} exact />
       </div>
     </Router>
   );
