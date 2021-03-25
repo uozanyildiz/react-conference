@@ -8,7 +8,7 @@ import ScheduleScreen from './screens/ScheduleScreen';
 function App() {
   console.log(process.env.PUBLIC_URL);
   return (
-    <Router>
+    <Router basename='/react-conference'>
       <div>
         <Navbar />
         <Route path='/location' component={LocationScreen} />
